@@ -1,4 +1,4 @@
-# 🛡️ Gestor de Claves y Cifrado
+#  Gestor de Claves y Cifrado
 
 **Autor:** El Boudali  
 **GitHub:** [BobbyDelhi](https://github.com/BobbyDelhi)
@@ -7,30 +7,29 @@ Este proyecto es un conjunto de scripts en **Bash** que permiten generar claves 
 
 ---
 
-##  Instalación
+# Instalación
 
-1. Actualizar la máquina:
+1. Actualizar la máquina en caso de no ejecutar main.sh:
 ```bash
 sudo apt update
 sudo apt upgrade -y
 
+```
 
-## Instalación
-1. Actualizar maquina
-```bash
+2. Actualizar maquina
+```bash 
 sudo apt update
 Sudo apt upgrade
-
-
 ```
-2. Instalacion de dependencias
+
+3. Instalacion de dependencias
 ```bash
 sudo apt install zenity
 sudo apt install openssl
 ```
 
 
-3. Clonar o copiar el script `script.sh` en un directorio.
+4. Clonar o copiar el script `script.sh` en un directorio.
 ```bash
 
 git clone https://github.com/Bobbydelhi/Confidencialidad.git
@@ -38,14 +37,14 @@ git clone https://github.com/Bobbydelhi/Confidencialidad.git
 ```
 
 
-4. Dar permisos de ejecución:
+5. Dar permisos de ejecución:
 ```bash
 chmod +x main.sh script.sh subscript.sh 
 
 
 
 ```
-5. Ejecutar programa:
+6. Ejecutar programa:
 ```bash
 ./main.sh
 
