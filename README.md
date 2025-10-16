@@ -16,12 +16,6 @@ sudo apt upgrade -y
 
 ```
 
-2. Actualizar maquina
-```bash 
-sudo apt update
-Sudo apt upgrade
-```
-
 3. Instalacion de dependencias
 ```bash
 sudo apt install zenity
