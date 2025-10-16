@@ -1,14 +1,18 @@
-# Gestor de Claves y Cifrado
-
+# 🛡️ Gestor de Claves y Cifrado
 
 **Autor:** El Boudali  
 **GitHub:** [BobbyDelhi](https://github.com/BobbyDelhi)
 
-
-Este proyecto es un script en Bash para generar claves RSA y AES, realizar cifrado simétrico y asimétrico (híbrido) y gestionar claves públicas.
-
+Este proyecto es un conjunto de scripts en **Bash** que permiten generar claves **RSA** y **AES**, realizar **cifrado simétrico** y **asimétrico (híbrido)**, verificar la **integridad de archivos** y gestionar **claves públicas** mediante una interfaz gráfica con **Zenity**.
 
 ---
+
+##  Instalación
+
+1. Actualizar la máquina:
+```bash
+sudo apt update
+sudo apt upgrade -y
 
 
 ## Instalación
@@ -36,7 +40,13 @@ git clone https://github.com/Bobbydelhi/Confidencialidad.git
 
 4. Dar permisos de ejecución:
 ```bash
-chmod +x script.sh
+chmod +x main.sh script.sh subscript.sh 
 
+
+
+```
+5. Ejecutar programa:
+```bash
+./main.sh
 
 ```
